@@ -1,0 +1,146 @@
+{
+  "data": {
+    "vendors": [
+      {
+        "vendorId": "vendor1",
+        "name": "PrintExpress",
+        "location": "Mumbai",
+        "documentTypes": ["Text", "Image"],
+        "sizes": ["A4", "A5"],
+        "colors": ["B/W", "CYMK"],
+        "timeSlots": ["9AM-12PM", "1PM-4PM"],
+        "image": "/images/vendors/1.png",
+        "pricing": {
+          "A4": {
+            "Text": {
+              "B/W": "1.50",
+              "CYMK": "2.00"
+            },
+            "Image": {
+              "B/W": "1.75",
+              "CYMK": "2.50"
+            }
+          },
+          "A5": {
+            "Text": {
+              "B/W": "1.25",
+              "CYMK": "1.75"
+            },
+            "Image": {
+              "B/W": "1.50",
+              "CYMK": "2.25"
+            }
+          }
+        }
+      },
+      {
+        "vendorId": "vendor2",
+        "name": "QuickPrints",
+        "location": "Delhi",
+        "documentTypes": ["Text"],
+        "sizes": ["Legal", "Letter"],
+        "colors": ["B/W"],
+        "timeSlots": ["10AM-1PM", "3PM-6PM"],
+        "image": "/images/vendors/2.png",
+        "pricing": {
+          "Legal": {
+            "Text": {
+              "B/W": "1.20"
+            }
+          },
+          "Letter": {
+            "Text": {
+              "B/W": "1.00"
+            }
+          }
+        }
+      },
+      {
+        "vendorId": "vendor3",
+        "name": "PaperWorks",
+        "location": "Bangalore",
+        "documentTypes": ["Image"],
+        "sizes": ["A4", "A3"],
+        "colors": ["CYMK"],
+        "timeSlots": ["8AM-11AM", "12PM-3PM"],
+        "image": "/images/vendors/3.png",
+        "pricing": {
+          "A4": {
+            "Image": {
+              "CYMK": "2.00"
+            }
+          },
+          "A3": {
+            "Image": {
+              "CYMK": "2.50"
+            }
+          }
+        }
+      },
+      {
+        "vendorId": "vendor4",
+        "name": "PrintMaster",
+        "location": "Chennai",
+        "documentTypes": ["Text", "Image"],
+        "sizes": ["A4", "Legal"],
+        "colors": ["B/W"],
+        "timeSlots": ["11AM-2PM", "4PM-7PM"],
+        "image": "/images/vendors/1.png",
+        "pricing": {
+          "A4": {
+            "Text": {
+              "B/W": "1.30"
+            },
+            "Image": {
+              "B/W": "1.50"
+            }
+          },
+          "Legal": {
+            "Text": {
+              "B/W": "1.40"
+            },
+            "Image": {
+              "B/W": "1.60"
+            }
+          }
+        }
+      },
+      {
+        "vendorId": "vendor5",
+        "name": "InstaPrint",
+        "location": "Hyderabad",
+        "documentTypes": ["Text"],
+        "sizes": ["A5", "Letter"],
+        "colors": ["CYMK"],
+        "timeSlots": ["9AM-12PM", "2PM-5PM"],
+        "image": "/images/vendors/2.png",
+        "pricing": {
+          "A5": {
+            "Text": {
+              "CYMK": "1.80"
+            }
+          },
+          "Letter": {
+            "Text": {
+              "CYMK": "1.90"
+            }
+          }
+        }
+      }
+    ],
+    "services": [
+      {
+        "title": "Plain text",
+        "image": "/images/services/text-media.webp",
+        "description": "Plain text media for cheaper prints"
+      },
+      {
+        "title": "Image Media",
+        "image": "/images/services/image-media.webp",
+        "description": "Print image content on high quality papers"
+      }
+    ],
+    "docTypes": ["Image", "Text"],
+    "docSizes": ["A4", "A5", "Legal", "Letter"]
+  }
+}
