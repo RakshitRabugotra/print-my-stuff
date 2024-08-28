@@ -27,7 +27,7 @@ export default async function Home() {
   )
 }
 
-async function Hero() {
+function Hero() {
   return (
     <section className="relative flex h-[60vh] w-full flex-col items-center justify-center">
       <div className="bg-hero inset-0 h-full w-full bg-center blur-[2px]">
@@ -45,7 +45,7 @@ async function Hero() {
   )
 }
 
-async function Services({ services }: { services: Service[] }) {
+function Services({ services }: { services: Service[] }) {
   return (
     <section
       id="services"
@@ -58,7 +58,7 @@ async function Services({ services }: { services: Service[] }) {
   )
 }
 
-async function Vendors({ vendors }: { vendors: Vendor[] }) {
+function Vendors({ vendors }: { vendors: Vendor[] }) {
   const desc =
     "Explore curated lists of top vendors in Delhi NCR, based on trends"
 
