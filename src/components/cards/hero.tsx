@@ -3,6 +3,7 @@
 import { Card, CardBody, CardFooter } from "@nextui-org/card"
 import { Image } from "@nextui-org/image"
 import { Service, Vendor } from "@/types/database"
+import { Link } from "@nextui-org/link"
 
 export const ServiceCard: React.FC<Service> = ({
   title,
@@ -44,7 +45,8 @@ export const VendorCard: React.FC<Vendor> = ({
     <Card
       className="col-span-12 h-[300px] sm:col-span-4"
       isPressable
-      onPress={() => console.log(`vendor pressed ${vendorId}`)}
+      as={Link}
+      href={"/vendor/" + vendorId}
     >
       {/* Black overlay */}
       <div className="absolute inset-0 z-10 bg-black/30" />
