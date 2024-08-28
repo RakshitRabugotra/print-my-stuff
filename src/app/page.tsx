@@ -19,7 +19,7 @@ export default async function Home() {
     <section className="flex flex-col items-center justify-center gap-4">
       <Hero />
 
-      <section className="w-full max-w-screen-lg pb-32">
+      <section className="w-full max-w-screen-lg px-6 pb-32">
         <Services services={data.services} />
         <Vendors vendors={data.vendors} />
       </section>
@@ -49,7 +49,7 @@ async function Services({ services }: { services: Service[] }) {
   return (
     <section
       id="services"
-      className="mt-8 flex flex-row flex-wrap justify-center gap-8"
+      className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2"
     >
       {services.map((service, index) => (
         <ServiceCard {...service} key={service.title + "-" + index} />

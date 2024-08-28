@@ -14,7 +14,7 @@ export const ServiceCard: React.FC<Service> = ({
       shadow="sm"
       isPressable
       onPress={() => console.log("item pressed")}
-      className="basis-1/3 hover:scale-105"
+      className="hover:scale-105"
     >
       <CardBody className="overflow-visible p-0">
         <Image
